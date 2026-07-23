@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Enso Sudoku</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    max-width: 780px; margin: 0 auto; padding: 0 20px 60px;
+    color: #2b2118; background: #f7f3ea; line-height: 1.65;
+  }
+
+  /* ── Header ── */
+  .site-header {
+    padding: 28px 0 18px;
+    border-bottom: 2px solid #5a6b52;
+    margin-bottom: 24px;
+  }
+  .site-header h1 {
+    font-size: 24px; font-weight: 700; color: #2b2118;
+    margin-bottom: 4px;
+  }
+  .site-header .app-name {
+    font-size: 13px; color: #7a6f5c; margin-bottom: 14px;
+  }
+
+  /* ── Language switcher ── */
+  .lang-switcher {
+    display: flex; flex-wrap: wrap; gap: 6px;
+  }
+  .lang-btn {
+    padding: 5px 13px; border: 1.5px solid #c5b99a;
+    border-radius: 20px; background: transparent;
+    color: #5a6b52; font-size: 13px; cursor: pointer;
+    font-family: inherit; transition: all .18s;
+  }
+  .lang-btn:hover { background: #e8e0d0; }
+  .lang-btn.active {
+    background: #5a6b52; color: #f7f3ea;
+    border-color: #5a6b52;
+  }
+
+  /* ── Content blocks ── */
+  .lang-block { display: none; }
+  .lang-block.visible { display: block; }
+
+  .meta { color: #7a6f5c; font-size: 13px; margin-bottom: 20px; }
+  h2 { font-size: 18px; color: #3d4a37; margin-top: 30px; margin-bottom: 10px; }
+  p { font-size: 15px; margin-bottom: 12px; }
+  ul { padding-left: 22px; margin-bottom: 12px; }
+  li { font-size: 15px; margin-bottom: 6px; }
+  a { color: #5a6b52; }
+  .box {
+    background: #fff; border: 1px solid #e3d9c6;
+    border-radius: 8px; padding: 14px 18px; margin: 18px 0;
+    font-size: 15px;
+  }
+  footer { margin-top: 36px; font-size: 12px; color: #9a8f7c; }
+
+  @media (max-width: 480px) {
+    .site-header h1 { font-size: 20px; }
+    h2 { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <div class="app-name">Enso Sudoku</div>
+  <h1 id="page-title">Политика конфиденциальности</h1>
+  <div class="lang-switcher">
+    <button class="lang-btn active" onclick="setLang('ru')">RU</button>
+    <button class="lang-btn" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('de')">DE</button>
+    <button class="lang-btn" onclick="setLang('fr')">FR</button>
+    <button class="lang-btn" onclick="setLang('es')">ES</button>
+    <button class="lang-btn" onclick="setLang('pt')">PT</button>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ RU -->
+<div class="lang-block visible" id="block-ru">
+<p class="meta">Дата вступления в силу: 17 июля 2026 г.</p>
+<p>Настоящая Политика конфиденциальности описывает, как мобильное приложение «Enso Sudoku»
+(далее — «Приложение») обрабатывает информацию пользователей. Разработчик — Смирнов Андрей
+(далее — «Разработчик»). Устанавливая и используя Приложение, вы соглашаетесь с условиями
+настоящей Политики.</p>
+<div class="box"><strong>Коротко:</strong> Приложение не запрашивает имя, телефон, адрес или иные
+прямые персональные данные. Игровой прогресс хранится на устройстве. Ник для таблицы лидеров
+и обезличенные технические данные обрабатываются сторонними сервисами (Firebase, Yandex),
+как описано ниже.</div>
+
+<h2>1. Какие данные обрабатываются</h2>
+<ul>
+<li><strong>Игровые данные (локально).</strong> Прогресс, статистика, достижения, настройки хранятся
+на устройстве и не передаются Разработчику.</li>
+<li><strong>Никнейм для таблицы лидеров.</strong> При участии в онлайн-таблице никнейм и результат
+(время, режим, сложность) сохраняются в облаке. Никнейм является псевдонимом — не вносите в него
+реальные персональные данные.</li>
+<li><strong>Технические и рекламные идентификаторы.</strong> Для показа рекламы сторонние поставщики
+могут обрабатывать рекламный идентификатор, тип устройства, версию ОС, приблизительный регион.</li>
+</ul>
+
+<h2>2. Сторонние сервисы</h2>
+<ul>
+<li><strong>Google Firebase (Firestore)</strong> — таблица лидеров.
+<a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+<li><strong>Yandex Mobile Ads</strong> — реклама.
+<a href="https://yandex.ru/legal/confidential/">yandex.ru/legal/confidential</a></li>
+</ul>
+<p><strong>Важно.</strong> Firebase может обрабатывать данные за пределами РФ. Используя таблицу
+лидеров, вы соглашаетесь на трансграничную передачу никнейма и результата. Если вы не согласны —
+не используйте таблицу лидеров; остальной функционал остаётся полностью доступным.</p>
+
+<h2>3. Цели обработки</h2>
+<ul>
+<li>обеспечение игрового процесса и сохранение прогресса;</li>
+<li>работа онлайн-таблицы лидеров;</li>
+<li>показ рекламы, за счёт которой распространяется Приложение;</li>
+<li>улучшение стабильности и качества Приложения.</li>
+</ul>
+
+<h2>4. Реклама</h2>
+<p>Приложение использует Yandex Mobile Ads. Вы можете сбросить или ограничить рекламный
+идентификатор в настройках устройства (раздел «Конфиденциальность» / «Реклама»).</p>
+
+<h2>5. Данные детей</h2>
+<p>Приложение не предназначено для сбора данных детей. Если вы считаете, что нам стали известны
+данные ребёнка, свяжитесь с нами.</p>
+
+<h2>6. Хранение и удаление данных</h2>
+<p>Локальные данные удаляются при удалении Приложения. Данные таблицы лидеров хранятся
+до тех пор, пока это необходимо для её работы. Для удаления никнейма и результатов свяжитесь
+с Разработчиком.</p>
+
+<h2>7. Ваши права</h2>
+<p>Вы вправе запросить информацию об обрабатываемых данных, их исправление или удаление,
+а также отозвать согласие. Используйте контакты из раздела 9.</p>
+
+<h2>8. Изменения политики</h2>
+<p>Политика может обновляться. Актуальная версия всегда доступна по этому адресу.
+Существенные изменения отражаются в дате вступления в силу.</p>
+
+<h2>9. Контакты</h2>
+<ul>
+<li>Email: <a href="mailto:dronsmirnoff@yahoo.com">dronsmirnoff@yahoo.com</a></li>
+<li>Telegram: <a href="https://t.me/AnrySm">@AnrySm</a></li>
+</ul>
+<footer>&copy; 2026 Смирнов Андрей (Anry). Все права защищены.</footer>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ EN -->
+<div class="lang-block" id="block-en">
+<p class="meta">Effective date: July 17, 2026</p>
+<p>This Privacy Policy describes how the mobile application "Enso Sudoku" (the "App") handles user
+information. The developer is Andrey Smirnov (the "Developer"). By installing and using the App, you
+agree to this Policy.</p>
+<div class="box"><strong>In brief:</strong> The App does not request your name, phone number, address,
+or other direct personal data. Game progress is stored on your device. A leaderboard nickname and
+anonymized technical data are processed by third-party services (Firebase, Yandex) as described
+below.</div>
+
+<h2>1. Data We Process</h2>
+<ul>
+<li><strong>Local game data.</strong> Progress, statistics, achievements, and settings are stored on
+your device and are not transmitted to the Developer.</li>
+<li><strong>Leaderboard nickname.</strong> If you use the online leaderboard, your chosen nickname and
+result (time, mode, difficulty) are stored in the cloud. The nickname is a pseudonym — do not include
+real personal information in it.</li>
+<li><strong>Technical and advertising identifiers.</strong> To serve ads, third-party providers may
+process your advertising ID, device type, OS version, and approximate region.</li>
+</ul>
+
+<h2>2. Third-Party Services</h2>
+<ul>
+<li><strong>Google Firebase (Firestore)</strong> — leaderboard storage.
+<a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+<li><strong>Yandex Mobile Ads</strong> — in-app advertising.
+<a href="https://yandex.ru/legal/confidential/">yandex.ru/legal/confidential</a></li>
+</ul>
+<p><strong>Note.</strong> Firebase may process data outside your country of residence. By using the
+leaderboard, you consent to the cross-border transfer of your nickname and score. If you do not agree,
+simply do not use the leaderboard — all other App features remain fully available.</p>
+
+<h2>3. Purposes of Processing</h2>
+<ul>
+<li>providing gameplay and saving progress;</li>
+<li>operating the online leaderboard;</li>
+<li>displaying ads that support the free distribution of the App;</li>
+<li>improving App stability and quality.</li>
+</ul>
+
+<h2>4. Advertising</h2>
+<p>The App uses Yandex Mobile Ads. You can reset or limit your advertising identifier in your device
+settings (Privacy / Ads section).</p>
+
+<h2>5. Children's Data</h2>
+<p>The App is not intended to collect data from children. If you believe we have inadvertently received
+a child's data, please contact us for deletion.</p>
+
+<h2>6. Data Retention and Deletion</h2>
+<p>Local data is deleted when you uninstall the App. Leaderboard data is retained as long as needed
+for leaderboard operation. To request deletion of your nickname and scores, contact the Developer.</p>
+
+<h2>7. Your Rights</h2>
+<p>You may request information about the data we process, its correction or deletion, and withdraw
+your consent at any time. Use the contacts in Section 9.</p>
+
+<h2>8. Policy Updates</h2>
+<p>This Policy may be updated. The current version is always available at this URL. Material changes
+will be reflected in the effective date at the top of the page.</p>
+
+<h2>9. Contact</h2>
+<ul>
+<li>Email: <a href="mailto:dronsmirnoff@yahoo.com">dronsmirnoff@yahoo.com</a></li>
+<li>Telegram: <a href="https://t.me/AnrySm">@AnrySm</a></li>
+</ul>
+<footer>&copy; 2026 Andrey Smirnov (Anry). All rights reserved.</footer>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ DE -->
+<div class="lang-block" id="block-de">
+<p class="meta">Gültig ab: 17. Juli 2026</p>
+<p>Diese Datenschutzerklärung beschreibt, wie die mobile App „Enso Sudoku" (die „App")
+Nutzerinformationen verarbeitet. Entwickler ist Andrey Smirnov (der „Entwickler"). Mit der
+Installation und Nutzung der App stimmen Sie dieser Erklärung zu.</p>
+<div class="box"><strong>Kurzfassung:</strong> Die App fragt keine Namen, Telefonnummern, Adressen
+oder sonstige direkte personenbezogene Daten ab. Der Spielfortschritt wird auf Ihrem Gerät
+gespeichert. Ein Leaderboard-Nickname und anonymisierte technische Daten werden von Drittanbietern
+(Firebase, Yandex) verarbeitet, wie unten beschrieben.</div>
+
+<h2>1. Verarbeitete Daten</h2>
+<ul>
+<li><strong>Lokale Spieldaten.</strong> Fortschritt, Statistiken, Erfolge und Einstellungen werden
+auf Ihrem Gerät gespeichert und nicht an den Entwickler übertragen.</li>
+<li><strong>Leaderboard-Nickname.</strong> Bei Nutzung der Online-Rangliste werden Ihr gewählter
+Nickname und Ihr Ergebnis (Zeit, Modus, Schwierigkeitsgrad) in der Cloud gespeichert. Der Nickname
+ist ein Pseudonym — geben Sie darin keine echten Personendaten an.</li>
+<li><strong>Technische und Werbekennungen.</strong> Zur Anzeige von Werbung können Drittanbieter
+Ihre Werbe-ID, Gerätetyp, OS-Version und ungefähre Region verarbeiten.</li>
+</ul>
+
+<h2>2. Drittanbieterdienste</h2>
+<ul>
+<li><strong>Google Firebase (Firestore)</strong> — Leaderboard-Speicherung.
+<a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+<li><strong>Yandex Mobile Ads</strong> — In-App-Werbung.
+<a href="https://yandex.ru/legal/confidential/">yandex.ru/legal/confidential</a></li>
+</ul>
+<p><strong>Hinweis.</strong> Firebase kann Daten außerhalb Ihres Landes verarbeiten. Durch die
+Nutzung des Leaderboards stimmen Sie der grenzüberschreitenden Übertragung Ihres Nicknames und
+Ergebnisses zu. Falls Sie nicht einverstanden sind, verzichten Sie einfach auf die Leaderboard-
+Funktion — alle anderen App-Funktionen bleiben vollständig verfügbar.</p>
+
+<h2>3. Verarbeitungszwecke</h2>
+<ul>
+<li>Bereitstellung des Spielbetriebs und Speicherung des Fortschritts;</li>
+<li>Betrieb der Online-Rangliste;</li>
+<li>Anzeige von Werbung, die die kostenlose Verbreitung der App finanziert;</li>
+<li>Verbesserung der Stabilität und Qualität der App.</li>
+</ul>
+
+<h2>4. Werbung</h2>
+<p>Die App verwendet Yandex Mobile Ads. Sie können Ihre Werbe-ID in den Geräteeinstellungen
+zurücksetzen oder einschränken (Datenschutz / Werbung).</p>
+
+<h2>5. Daten von Kindern</h2>
+<p>Die App ist nicht für die Erhebung von Kinderdaten bestimmt. Falls wir versehentlich Daten
+eines Kindes erhalten haben, kontaktieren Sie uns zur Löschung.</p>
+
+<h2>6. Datenspeicherung und -löschung</h2>
+<p>Lokale Daten werden bei der Deinstallation der App gelöscht. Leaderboard-Daten werden so lange
+aufbewahrt, wie es für den Betrieb der Rangliste erforderlich ist. Zur Löschung Ihres Nicknames
+und Ihrer Ergebnisse wenden Sie sich an den Entwickler.</p>
+
+<h2>7. Ihre Rechte</h2>
+<p>Sie können Auskunft über verarbeitete Daten, deren Berichtigung oder Löschung verlangen sowie
+Ihre Einwilligung jederzeit widerrufen. Nutzen Sie die Kontakte aus Abschnitt 9.</p>
+
+<h2>8. Aktualisierungen</h2>
+<p>Diese Erklärung kann aktualisiert werden. Die aktuelle Version ist stets unter dieser Adresse
+verfügbar. Wesentliche Änderungen werden im Datum oben auf der Seite kenntlich gemacht.</p>
+
+<h2>9. Kontakt</h2>
+<ul>
+<li>E-Mail: <a href="mailto:dronsmirnoff@yahoo.com">dronsmirnoff@yahoo.com</a></li>
+<li>Telegram: <a href="https://t.me/AnrySm">@AnrySm</a></li>
+</ul>
+<footer>&copy; 2026 Andrey Smirnov (Anry). Alle Rechte vorbehalten.</footer>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ FR -->
+<div class="lang-block" id="block-fr">
+<p class="meta">Date d'entrée en vigueur : 17 juillet 2026</p>
+<p>La présente Politique de confidentialité décrit la manière dont l'application mobile « Enso
+Sudoku » (l'« Application ») traite les informations des utilisateurs. Le développeur est
+Andrey Smirnov (le « Développeur »). En installant et en utilisant l'Application, vous acceptez
+les conditions de cette Politique.</p>
+<div class="box"><strong>En résumé :</strong> L'Application ne demande pas votre nom, numéro de
+téléphone, adresse ou autres données personnelles directes. La progression du jeu est stockée sur
+votre appareil. Un pseudonyme pour le classement et des données techniques anonymisées sont
+traités par des services tiers (Firebase, Yandex) comme décrit ci-dessous.</div>
+
+<h2>1. Données traitées</h2>
+<ul>
+<li><strong>Données de jeu locales.</strong> La progression, les statistiques, les succès et les
+paramètres sont stockés sur votre appareil et ne sont pas transmis au Développeur.</li>
+<li><strong>Pseudonyme pour le classement.</strong> Si vous utilisez le classement en ligne, votre
+pseudonyme et votre résultat (temps, mode, difficulté) sont enregistrés dans le cloud. Le
+pseudonyme est un alias — n'y incluez pas de données personnelles réelles.</li>
+<li><strong>Identifiants techniques et publicitaires.</strong> Pour afficher des publicités, des
+fournisseurs tiers peuvent traiter votre identifiant publicitaire, le type d'appareil, la version
+du système d'exploitation et la région approximative.</li>
+</ul>
+
+<h2>2. Services tiers</h2>
+<ul>
+<li><strong>Google Firebase (Firestore)</strong> — stockage du classement.
+<a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+<li><strong>Yandex Mobile Ads</strong> — publicité intégrée.
+<a href="https://yandex.ru/legal/confidential/">yandex.ru/legal/confidential</a></li>
+</ul>
+<p><strong>Important.</strong> Firebase peut traiter des données en dehors de votre pays de
+résidence. En utilisant le classement, vous consentez au transfert transfrontalier de votre
+pseudonyme et de votre score. Si vous n'y consentez pas, n'utilisez pas le classement — toutes
+les autres fonctionnalités restent pleinement disponibles.</p>
+
+<h2>3. Finalités du traitement</h2>
+<ul>
+<li>assurer le fonctionnement du jeu et la sauvegarde de la progression ;</li>
+<li>exploiter le classement en ligne ;</li>
+<li>afficher des publicités qui financent la distribution gratuite de l'Application ;</li>
+<li>améliorer la stabilité et la qualité de l'Application.</li>
+</ul>
+
+<h2>4. Publicité</h2>
+<p>L'Application utilise Yandex Mobile Ads. Vous pouvez réinitialiser ou limiter votre identifiant
+publicitaire dans les paramètres de votre appareil (section Confidentialité / Publicité).</p>
+
+<h2>5. Données des enfants</h2>
+<p>L'Application n'est pas destinée à collecter des données d'enfants. Si vous pensez que nous avons
+reçu par inadvertance des données concernant un enfant, contactez-nous pour les supprimer.</p>
+
+<h2>6. Conservation et suppression des données</h2>
+<p>Les données locales sont supprimées lors de la désinstallation de l'Application. Les données du
+classement sont conservées tant que nécessaire pour son fonctionnement. Pour demander la
+suppression de votre pseudonyme et de vos résultats, contactez le Développeur.</p>
+
+<h2>7. Vos droits</h2>
+<p>Vous pouvez demander des informations sur les données traitées, leur rectification ou suppression,
+et retirer votre consentement à tout moment. Utilisez les contacts de la section 9.</p>
+
+<h2>8. Mises à jour de la politique</h2>
+<p>Cette Politique peut être mise à jour. La version actuelle est toujours disponible à cette
+adresse. Les modifications importantes seront reflétées dans la date d'entrée en vigueur.</p>
+
+<h2>9. Contact</h2>
+<ul>
+<li>E-mail : <a href="mailto:dronsmirnoff@yahoo.com">dronsmirnoff@yahoo.com</a></li>
+<li>Telegram : <a href="https://t.me/AnrySm">@AnrySm</a></li>
+</ul>
+<footer>&copy; 2026 Andrey Smirnov (Anry). Tous droits réservés.</footer>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ ES -->
+<div class="lang-block" id="block-es">
+<p class="meta">Fecha de entrada en vigor: 17 de julio de 2026</p>
+<p>Esta Política de privacidad describe cómo la aplicación móvil «Enso Sudoku» (la «Aplicación»)
+trata la información de los usuarios. El desarrollador es Andrey Smirnov (el «Desarrollador»).
+Al instalar y usar la Aplicación, usted acepta esta Política.</p>
+<div class="box"><strong>En resumen:</strong> La Aplicación no solicita su nombre, teléfono,
+dirección ni otros datos personales directos. El progreso del juego se almacena en su dispositivo.
+Un apodo para la tabla de clasificación y datos técnicos anonimizados son procesados por servicios
+de terceros (Firebase, Yandex) como se describe a continuación.</div>
+
+<h2>1. Datos que procesamos</h2>
+<ul>
+<li><strong>Datos de juego locales.</strong> El progreso, las estadísticas, los logros y los ajustes
+se almacenan en su dispositivo y no se transmiten al Desarrollador.</li>
+<li><strong>Apodo para la tabla de clasificación.</strong> Si usa la clasificación en línea, su
+apodo y resultado (tiempo, modo, dificultad) se guardan en la nube. El apodo es un seudónimo —
+no incluya datos personales reales en él.</li>
+<li><strong>Identificadores técnicos y publicitarios.</strong> Para mostrar anuncios, proveedores
+externos pueden procesar su ID publicitario, tipo de dispositivo, versión del SO y región
+aproximada.</li>
+</ul>
+
+<h2>2. Servicios de terceros</h2>
+<ul>
+<li><strong>Google Firebase (Firestore)</strong> — almacenamiento de la clasificación.
+<a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+<li><strong>Yandex Mobile Ads</strong> — publicidad en la Aplicación.
+<a href="https://yandex.ru/legal/confidential/">yandex.ru/legal/confidential</a></li>
+</ul>
+<p><strong>Importante.</strong> Firebase puede procesar datos fuera de su país de residencia. Al usar
+la clasificación, usted consiente la transferencia transfronteriza de su apodo y puntuación. Si no
+está de acuerdo, simplemente no use la clasificación — el resto de funciones permanece disponible.</p>
+
+<h2>3. Finalidades del tratamiento</h2>
+<ul>
+<li>proporcionar el juego y guardar el progreso;</li>
+<li>operar la tabla de clasificación en línea;</li>
+<li>mostrar publicidad que financia la distribución gratuita de la Aplicación;</li>
+<li>mejorar la estabilidad y calidad de la Aplicación.</li>
+</ul>
+
+<h2>4. Publicidad</h2>
+<p>La Aplicación usa Yandex Mobile Ads. Puede restablecer o limitar su identificador publicitario en
+los ajustes de su dispositivo (sección Privacidad / Publicidad).</p>
+
+<h2>5. Datos de menores</h2>
+<p>La Aplicación no está destinada a recopilar datos de menores. Si cree que hemos recibido
+involuntariamente datos de un menor, contáctenos para eliminarlos.</p>
+
+<h2>6. Almacenamiento y eliminación de datos</h2>
+<p>Los datos locales se eliminan al desinstalar la Aplicación. Los datos de clasificación se
+conservan mientras sean necesarios para su funcionamiento. Para solicitar la eliminación de su
+apodo y resultados, contacte al Desarrollador.</p>
+
+<h2>7. Sus derechos</h2>
+<p>Puede solicitar información sobre los datos procesados, su rectificación o eliminación, y retirar
+su consentimiento en cualquier momento. Use los contactos de la sección 9.</p>
+
+<h2>8. Actualizaciones de la política</h2>
+<p>Esta Política puede actualizarse. La versión actual siempre está disponible en esta dirección.
+Los cambios importantes se reflejarán en la fecha de entrada en vigor.</p>
+
+<h2>9. Contacto</h2>
+<ul>
+<li>Email: <a href="mailto:dronsmirnoff@yahoo.com">dronsmirnoff@yahoo.com</a></li>
+<li>Telegram: <a href="https://t.me/AnrySm">@AnrySm</a></li>
+</ul>
+<footer>&copy; 2026 Andrey Smirnov (Anry). Todos los derechos reservados.</footer>
+</div>
+
+<!-- ══════════════════════════════════════════════════════ PT -->
+<div class="lang-block" id="block-pt">
+<p class="meta">Data de vigência: 17 de julho de 2026</p>
+<p>Esta Política de Privacidade descreve como o aplicativo móvel «Enso Sudoku» (o «Aplicativo»)
+trata as informações dos usuários. O desenvolvedor é Andrey Smirnov (o «Desenvolvedor»). Ao
+instalar e usar o Aplicativo, você concorda com esta Política.</p>
+<div class="box"><strong>Em resumo:</strong> O Aplicativo não solicita seu nome, telefone, endereço
+ou outros dados pessoais diretos. O progresso do jogo é armazenado no seu dispositivo. Um apelido
+para o ranking e dados técnicos anonimizados são processados por serviços de terceiros (Firebase,
+Yandex) conforme descrito abaixo.</div>
+
+<h2>1. Dados que processamos</h2>
+<ul>
+<li><strong>Dados de jogo locais.</strong> Progresso, estatísticas, conquistas e configurações são
+armazenados no seu dispositivo e não são transmitidos ao Desenvolvedor.</li>
+<li><strong>Apelido para o ranking.</strong> Se você usar o ranking online, seu apelido e resultado
+(tempo, modo, dificuldade) são salvos na nuvem. O apelido é um pseudônimo — não inclua dados
+pessoais reais nele.</li>
+<li><strong>Identificadores técnicos e publicitários.</strong> Para exibir anúncios, fornecedores
+terceiros podem processar seu ID publicitário, tipo de dispositivo, versão do SO e região
+aproximada.</li>
+</ul>
+
+<h2>2. Serviços de terceiros</h2>
+<ul>
+<li><strong>Google Firebase (Firestore)</strong> — armazenamento do ranking.
+<a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+<li><strong>Yandex Mobile Ads</strong> — publicidade no Aplicativo.
+<a href="https://yandex.ru/legal/confidential/">yandex.ru/legal/confidential</a></li>
+</ul>
+<p><strong>Importante.</strong> O Firebase pode processar dados fora do seu país de residência. Ao
+usar o ranking, você consente com a transferência transfronteiriça do seu apelido e pontuação. Se
+não concordar, simplesmente não use o ranking — todas as demais funções permanecem disponíveis.</p>
+
+<h2>3. Finalidades do tratamento</h2>
+<ul>
+<li>fornecer a jogabilidade e salvar o progresso;</li>
+<li>operar o ranking online;</li>
+<li>exibir publicidade que financia a distribuição gratuita do Aplicativo;</li>
+<li>melhorar a estabilidade e a qualidade do Aplicativo.</li>
+</ul>
+
+<h2>4. Publicidade</h2>
+<p>O Aplicativo usa Yandex Mobile Ads. Você pode redefinir ou limitar seu identificador publicitário
+nas configurações do dispositivo (seção Privacidade / Anúncios).</p>
+
+<h2>5. Dados de crianças</h2>
+<p>O Aplicativo não se destina a coletar dados de crianças. Se você acredita que recebemos
+inadvertidamente dados de uma criança, entre em contato para exclusão.</p>
+
+<h2>6. Retenção e exclusão de dados</h2>
+<p>Os dados locais são excluídos ao desinstalar o Aplicativo. Os dados do ranking são mantidos
+enquanto necessários para seu funcionamento. Para solicitar a exclusão do seu apelido e
+resultados, entre em contato com o Desenvolvedor.</p>
+
+<h2>7. Seus direitos</h2>
+<p>Você pode solicitar informações sobre os dados processados, sua correção ou exclusão, e retirar
+seu consentimento a qualquer momento. Use os contatos da seção 9.</p>
+
+<h2>8. Atualizações da política</h2>
+<p>Esta Política pode ser atualizada. A versão atual está sempre disponível neste endereço.
+Alterações importantes serão refletidas na data de vigência.</p>
+
+<h2>9. Contato</h2>
+<ul>
+<li>Email: <a href="mailto:dronsmirnoff@yahoo.com">dronsmirnoff@yahoo.com</a></li>
+<li>Telegram: <a href="https://t.me/AnrySm">@AnrySm</a></li>
+</ul>
+<footer>&copy; 2026 Andrey Smirnov (Anry). Todos os direitos reservados.</footer>
+</div>
+
+<script>
+const titles = {
+  ru: 'Политика конфиденциальности',
+  en: 'Privacy Policy',
+  de: 'Datenschutzerklärung',
+  fr: 'Politique de confidentialité',
+  es: 'Política de privacidad',
+  pt: 'Política de Privacidade'
+};
+
+function setLang(lang) {
+  // Скрыть все блоки
+  document.querySelectorAll('.lang-block').forEach(el => el.classList.remove('visible'));
+  document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+
+  // Показать нужный
+  document.getElementById('block-' + lang).classList.add('visible');
+  document.querySelector('[onclick="setLang(\'' + lang + '\')"]').classList.add('active');
+
+  // Заголовок страницы
+  document.getElementById('page-title').textContent = titles[lang];
+  document.documentElement.lang = lang;
+}
+
+// Автоопределение языка браузера при загрузке
+(function() {
+  const nav = navigator.language || navigator.userLanguage || 'ru';
+  const code = nav.slice(0, 2).toLowerCase();
+  const supported = ['ru', 'en', 'de', 'fr', 'es', 'pt'];
+  setLang(supported.includes(code) ? code : 'en');
+})();
+</script>
+</body>
+</html>
